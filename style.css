@@ -1,0 +1,43 @@
+/*##############################################################################
+###############################mobile size######################################
+##############################################################################*/
+
+.banniere{
+  background-color: #FA6708;
+  text-align: center;
+  width: 100%;
+}
+
+ a{
+   visibility: hidden;
+ }
+
+ .boutton1{
+   visibility: hidden;
+ }
+
+ .leboncoin{
+   width: 15%;
+   height: auto;
+   vertical-align: middle;
+   margin-right: auto;
+   margin-left: 30%;
+   }
+
+  .boutton{
+    color: #FA6708;
+    background-color: #FFFFFF;
+    border-style: hidden;
+    border-radius: 10%;
+    height: 40px;
+    font-family: Arial;
+    margin-top: 20px;
+    margin-left: 3px;
+  }
+p{
+  text-align: center;
+}
+
+samp{
+  color: #FA6708;
+}
