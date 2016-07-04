@@ -1,12 +1,12 @@
 /*##############################################################################
 ###############################mobile size######################################
 ##############################################################################*/
-
 .banniere{
   background-color: #FA6708;
   text-align: center;
   width: 100%;
-}
+  padding-top: 0%;
+  }
 
  a{
    visibility: hidden;
@@ -78,8 +78,11 @@ samp{
 
 ul{
     visibility: hidden;
-}
+  }
 
+li{
+  font-size: 1px;
+}
 .selectregion{
   width: 100%;
   /*text-align: center;*/
@@ -104,3 +107,85 @@ ul{
 .titre{
   float: left;
   }
+
+footer{
+  margin-top: 0%;
+}
+/*##############################################################################
+################################tablette size###################################
+##############################################################################*/
+@media screen and (min-width: 823px) {
+
+      .leboncoin{
+      margin-left: 0%;
+      width: 10%;
+      margin: 1% 0%;
+    }
+
+    .boutton3, .boutton4{
+      visibility: hidden;
+      /*display: inline-block;*/
+      padding: 0%;
+      margin: 0%;
+      /*float: left;*/
+    }
+
+    .france {
+      float: left;
+      margin: 1% 0% 5% 38%;
+    }
+
+    .boutton1 {
+      visibility: visible;
+      float: right;
+      margin: 1.5% 5%;
+    }
+
+    .boutton{
+      visibility: hidden;
+    }
+
+    header a{
+      visibility: visible;
+      text-decoration: none;
+      color: #fff;
+      /*margin-left: 55%;*/
+    }
+
+
+    ul{
+      visibility: visible;
+      float: right;
+      list-style-type: none;
+      text-align: right;
+      margin-right: 10%;
+      }
+
+    li{
+      font-size: 15px;
+    }
+
+    a {
+      visibility: visible;
+    }
+
+    .list{
+      display: inline;
+    }
+
+    .selectregion{
+      visibility: hidden;
+    }
+
+    .color{
+      color: blue;
+    }
+
+    .boutton1{
+      border-style: solid;
+      border-color: #fff;
+      border-radius: 10%;
+      background-color: #FA6708;
+      color: #fff;
+
+}
